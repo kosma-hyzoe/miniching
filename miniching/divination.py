@@ -3,6 +3,10 @@ import random
 from miniching.serialization import BINARY_TO_DECIMAL
 
 
+def get_excerpt_with_yarrow_stalks() -> str:
+    pass
+
+
 def get_excerpt_with_coin_toss() -> str:
     changing_lines = []
     reversed_hex_binary = []

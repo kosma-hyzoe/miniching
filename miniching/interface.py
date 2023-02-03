@@ -2,7 +2,7 @@ import argparse
 import sys
 from datetime import datetime
 
-from miniching.divination import get_excerpt_with_coin_toss
+from miniching.divination import get_excerpt_with_coin_toss, get_excerpt_with_yarrow_stalks
 from miniching.serialization import write_history, get_config
 from miniching.reading.compose import compose_reading
 from miniching.reading.format import format_datetime, LINE_BREAK
@@ -26,6 +26,8 @@ def main():
 
     if parser_args.manual_excerpt:
         excerpt = parser_args.manual_excerpt
+    elif parser_args.yarrow_stalks:
+        excerpt = get_excerpt_with_yarrow_stalks()
     else:
         excerpt = get_excerpt_with_coin_toss()
 
@@ -54,6 +56,7 @@ def get_parser_args():
     parser.add_argument('-f', '--full-reading', action='store_true', help='get a full reading')
     parser.add_argument('-w', '--write-history', action='store_true', help='write to a history.txt file')
     parser.add_argument('-s', '--skip-print', action='store_true', help='don\'t print the reading')
+    parser.add_argument('-y', '--yarrow-stalks', action='store_true', help='use the yarrow stalks divination method')
 
     parser.add_argument('-q', '--quick', action="store_true", help="get a reading with an empty query")
 
