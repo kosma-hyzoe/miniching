@@ -1,0 +1,10 @@
+#!/usr/bin/python
+
+from miniching.run import run
+
+try:
+    run()
+except EOFError:
+    exit(1)
+except KeyboardInterrupt:
+    exit(1)
