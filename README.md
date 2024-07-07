@@ -1,6 +1,41 @@
 ## miniching
 
-A customizable CLI I Ching tool.
+A customizable CLI I Ching tool with history writing and smart line evaluation.
+
+```
+$ mcng
+Query: To foo, or not to foo?
+62:3,4 -> 2
+$ mcng --reading -l--print-last --asci-hex
+08-07-2024 00:42
+To foo, or not to foo?
+
+                              62:3,4 -> 2 : ䷽ -> ䷁
+
+                           Preponderance of the Small
+
+While in the hexagram Ta Kuo, PREPONDERANCE OF THE GREAT (28), the strong lines
+preponderate and are within, inclosed between weak lines at the top and bottom,
+the present hexagram has weak lines preponderating, though here again they are
+on the outside, the strong lines being within. This indeed is the basis of the
+exceptional situation indicated by the hexagram. When strong lines are outside,
+we have the hexagram I, PROVIDING NOURISHMENT (27), or Chung Fu, INNER TRUTH,
+(61); neither represents an exceptional state. When strong elements within
+preponderate, they necessarily enforce their will. This creates struggle and
+exceptional conditions in general. But in the present hexagram it is the weak
+element that perforce must mediate with the outside world. If a man occupies a
+position of authority for which he is by nature really inadequate, extraordinary
+prudence is necessary.
+
+        PREPONDERANCE OF THE SMALL. Success.
+        Perseverance furthers.
+        Small things may be done; great things should not be done.
+        The flying bird brings the message:
+        It is not well to strive upward,
+        It is well to remain below.
+        Great good fortune.
+(...)
+```
 
 ## How to run miniching?
 
