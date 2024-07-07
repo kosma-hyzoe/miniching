@@ -4,11 +4,10 @@ A customizable CLI I Ching tool.
 
 ## How to run miniching?
 
-1. Make sure `python3` is installed. The project was developed on Python 3.10.6.
-   Older versions should also work, but were not tested.
-2. Download or clone this repo.
-3. Modify `config.py` as needed.
-4. Execute `minching/mcng`.
+1. Make sure `python3` is installed, 3.10+
+2. Download or clone this repo
+3. Optionally, modify `config.py` as needed
+4. Execute `minching/mcng`
 
 I recommend adding the repo to your `$PATH` variable.
 
