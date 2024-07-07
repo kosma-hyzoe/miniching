@@ -50,8 +50,7 @@ alias pcng="mcng >/dev/null; mcng -l -r"
 ## What is I Ching?
 
 An ancient divination and wisdom book, easily one of, if not the most
-influential chinese text. Think jungian dream generator and Bible
-studies for the cool kids or a less woo-woo Tarot.
+influential Chinese texts.
 
 ### Isn't it still a bit esoteric and weird?
 
