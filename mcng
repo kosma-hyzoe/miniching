@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-from miniching.run import run
+from miniching.main import run
 
 try:
     run()
