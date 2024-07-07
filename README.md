@@ -6,7 +6,7 @@ A customizable CLI I Ching tool.
 
 1. Make sure `python3` is installed, 3.10+
 2. Download or clone this repo
-3. Optionally, modify `config.py` as needed
+3. Optionally, modify `miniching/miniching/config.py` as needed
 4. Execute `minching/mcng`
 
 I recommend adding the repo to your `$PATH` variable.
