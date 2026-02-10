@@ -85,9 +85,9 @@ alias pcng="mcng >/dev/null; mcng -l -r"
 ## What is I Ching?
 
 An ancient divination and wisdom book, easily one of, if not the most
-influential Chinese texts. To make it more familiar for average
-western intellectual that might come upon my Git\* profile, here's Carl Jung's
-I Ching foreword at [carljungdepthpsychologysite.blog](https://carljungdepthpsychologysite.blog/2020/02/03/foreword-to-the-i-ching-by-carl-gustav-jung/)
+influential Chinese texts. I NO LONGER USE IT, NOR RECOMMEND USING IT
+(you better read The Bible, friend, and not in a biblomancy-ish way),
+but coding it sure was fun.
 
 ### How does I Ching divination work?
 
